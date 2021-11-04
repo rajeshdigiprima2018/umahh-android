@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/Iv_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:src="@drawable/outline_arrow_back_white" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:padding="5dp"
+            android:text="@string/Business"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/Iv_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_search" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/recycler_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Mosque_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Title"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/Tv_titel_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Mosque_Name"
+                android:layout_alignStart="@+id/tv_Mosque_Name"
+                android:layout_alignLeft="@+id/tv_Mosque_Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center|left"
+                android:paddingRight="10dp"
+                android:text=""
+                android:textColor="@color/Red_sand"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <WebView
+                android:id="@+id/tv_descrition1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Tv_titel_name"
+                android:layout_alignStart="@+id/tv_Mosque_Name"
+                android:layout_alignLeft="@+id/tv_Mosque_Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center|left"
+                android:paddingRight="10dp"
+                android:text=""
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <WebView
+                android:id="@+id/tv_description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_descrition1"
+                android:layout_alignStart="@+id/tv_Mosque_Name"
+                android:layout_alignLeft="@+id/tv_Mosque_Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20sp"
+                android:gravity="center|left"
+                android:paddingRight="10dp"
+                android:text=""
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:id="@+id/Iv_car"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-7dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_remove_bookmark" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

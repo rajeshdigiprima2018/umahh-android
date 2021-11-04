@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Mosque_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@+id/Iv_Image"
+        android:lines="1"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/Iv_Image"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+       />
+
+    <TextView
+        android:id="@+id/tv_descrition1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Mosque_Name"
+        android:layout_below="@+id/tv_Mosque_Name"
+        android:layout_marginTop="0dp"
+        android:text="Address"
+        android:lines="2"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+       />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Iv_Image"
+        android:layout_width="50dp"
+        android:src="@drawable/mosque_1"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+       />
+
+
+</RelativeLayout>

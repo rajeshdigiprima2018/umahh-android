@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:paddingRight="10dp"
+    android:layout_marginTop="6dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Mosque_Name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="81dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center|left"
+        android:text="Maruti Suzuki Swift"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_descrition1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Mosque_Name"
+        android:layout_alignStart="@+id/tv_Mosque_Name"
+        android:layout_below="@+id/tv_Mosque_Name"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:gravity="center|left"
+        android:lines="2"
+        android:paddingRight="10dp"
+        android:text="MP 09 AA 1111"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Iv_car"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv_descrition1"
+        android:layout_toStartOf="@+id/tv_descrition1"
+        app:srcCompat="@drawable/mosque_1" />
+
+    <ImageView
+        android:id="@+id/Iv_cross"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="false"
+        app:srcCompat="@drawable/ic_cross"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="11dp"
+ />
+
+
+</RelativeLayout>

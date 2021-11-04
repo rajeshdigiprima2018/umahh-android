@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">Ummah</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Please_wait">S\'il vous plaît, attendez</string>
+    <string name="drawer_close">Fermer</string>
+    <string name="drawer_open">Ouverte</string>
+    <string name="Clear">Effacer</string>
+    <string name="No_Internet_Connection">Pas de connection internet</string>
+    <string name="You_dont_have_internet_connection">vous n\'avez pas de connexion internet</string>
+    <string name="Retry">Retenter</string>
+    <string name="Exit">Sortie</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="text_enter_fname">Prénom non renseigné</string>
+    <string name="text_enter_lname">Nom de famille non entré</string>
+    <string name="text_enter_valid_email">Veuillez saisir un email valide</string>
+    <string name="Forgot_password">Votre mot de passe oublié</string>
+    <string name="Please_chack">Veuillez vérifier votre e-mail envoyer réinitialiser le jeton de mot de passe!</string>
+    <string name="Reset_pass">Réinitialiser le mot de passe</string>
+    <string name="Forget_pass">Mot de passe oublié</string>
+    <string name="Please_inter">Veuillez entrer votre e-mail d\'enregistrement</string>
+    <string name="Location_not_available">Emplacement non disponible ouvrez votre GPS</string>
+    <string name="Activate_GPS_to_use_use">Activer le GPS pour utiliser les services de localisation</string>
+    <string name="Login">S\'identifier</string>
+    <string name="register">S\'inscrire</string>
+    <string name="Password">Mot de passe</string>
+    <string name="Email">Entrez votre email</string>
+
+    <string name="text_test" >fadsfasdfadsf</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="track_number">Piste</string>
+
+    <!-- font families -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="dialog_permission_title">Donner la permission</string>
+    <string name="dialog_permission_message">Cette application doit être autorisée à utiliser cette fonctionnalité. Vous pouvez les accorder dans les paramètres de l\'application.</string>
+    <string name="go_to_settings">Aller au réglageAller aux paramètres</string>
+
+    // Facebook .....
+    <string name="facebook_app_id">1934372016684577</string>
+    <string name="fb_login_protocol_scheme">fb1934372016684577</string>
+
+    // Google
+
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">Chargement en cours…</string>
+    <string name="auth_code_fmt">Code d\'autorisation: %s</string>
+    <string name="id_token_fmt">Jeton d\'identification: %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Erreur des services Google Play: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">Se déconnecter</string>
+    <string name="disconnect">Déconnecter</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Logo Google</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">L\'accès aux contacts est nécessaire pour récupérer votre adresse e-mail.</string>
+
+    <!-- Activity Names and Descriptions -->
+    <string name="name_sign_in_activity">SignInActivity</string>
+    <string name="desc_sign_in_activity">Connexion, déconnexion et révocation de l\'accès.</string>
+    <string name="desc_sign_in_activity_scopes">Se connecter, se déconnecter et révoquer l\'accès avec les autorisations Google Drive</string>
+    <string name="name_id_token_activity">IdTokenActivity</string>
+    <string name="desc_id_token_activity">Récupération d\'un jeton d\'identification pour l\'utilisateur.</string>
+    <string name="desc_auth_code_activity">Montrez comment récupérer un code d\'authentification pour autoriser votre serveur.</string>
+    <string name="name_auth_code_activity">ServerAuthCodeActivity</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">363242854370-urn77d3nmu1mml6codca4moto6hcocfd.apps.googleusercontent.com</string>
+    <string name="name">Nom :</string>
+    <string name="Login_to">Connectez-vous à votre compte</string>
+    <string name="Enter_your_email"><![CDATA[Saisissez votre adresse e-mail et votre mot de passe pour vous connecter à votre compte.]]></string>
+    <string name="or_log">Ou connectez-vous avec</string>
+    <string name="I_am_a">je suis un</string>
+    <string name="User">Utilisateur</string>
+    <string name="Business_Owner">Propriétaire d\'entreprise</string>
+    <string name="Mosque_manager">Gestionnaire de la mosquée</string>
+    <string name="Continue">Continuer</string>
+    <string name="Sign_Up">S\'inscrire</string>
+    <string name="Sign_Up2">S\'inscrire</string>
+    <string name="Phone">Entrez le téléphone</string>
+    <string name="By_clicking_continue">En cliquant sur continuer, vous acceptez nos termes et conditions.</string>
+    <string name="or_sign_up">Ou inscrivez-vous avec</string>
+    <string name="Create_new_pass">Créer un nouveau mot de passe</string>
+    <string name="Enter_new_pass">Entrez un nouveau mot de passe</string>
+    <string name="Enter_verification_code">Entrez le code de vérification</string>
+    <string name="Enter_verification_code_sent">Entrez le code de vérification envoyé sur votre adresse e-mail</string>
+    <string name="Create_new_account">Créer un nouveau compte</string>
+    <string name="Mosque_name">Nom de la mosquée</string>
+    <string name="Name_contact_person">Nom de la personne de contact</string>
+    <string name="Zip_contact">Code postal</string>
+    <string name="or">ou</string>
+    <string name="Choose_location_automatically">Choisissez l\'emplacement automatiquement</string>
+    <string name="Type_Mosque_name">Tapez le nom de la mosquée</string>
+    <string name="Zuhru">Zuhru</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Réglages</string>
+    <string name="Find_a_mosque">Trouver une mosquée</string>
+    <string name="Todays_feed">Flux du jour</string>
+    <string name="title_bookmark">Signet</string>
+    <string name="title_search">Chercher</string>
+    <string name="title_danation">Don</string>
+    <string name="tilte_Perf">Préfs</string>
+    <string name="Quran">Coran</string>
+    <string name="Community">Communauté</string>
+    <string name="Setting">Réglages</string>
+    <string name="Qiblah">Qiblah</string>
+    <string name="Quiz">Quiz</string>
+    <string name="Personnage">Personnage</string>
+    <string name="Zakkat_Calculator">Zakkat Calculator</string>
+    <string name="Hajj_and_Umrah">Hajj and Umrah</string>
+    <string name="Supplication">Supplication</string>
+    <string name="Business">Affaires</string>
+    <string name="Organization">Organisation</string>
+    <string name="Donation">Don</string>
+    <string name="Prefs">Préfs</string>
+    <string name="Select_home_mosque">Sélectionnez Home Mosque</string>
+    <string name="Open">Ouvert</string>
+    <string name="Prayer_Time">Temps de prière</string>
+    <string name="Sura">Sourate</string>
+    <string name="General_knowledge">Culture générale</string>
+    <string name="Hujj_knowledge">Connaissance Hujj</string>
+    <string name="Religion_knowledge">Connaissances religieuses</string>
+    <string name="Quran_knowledge">Connaissance du Coran</string>
+    <string name="Notification">Notification</string>
+    <string name="Language_of">Langue de l\'application</string>
+    <string name="Quran_Translation">Traduction du Coran</string>
+    <string name="Prayer_Names">Noms de prière</string>
+    <string name="Term_and_Condition">Termes et conditions</string>
+    <string name="Language">Langue</string>
+    <string name="Log_out">Se déconnecter</string>
+    <string name="What_you_are">Qu\'est-ce que tu cherches?</string>
+    <string name="All">Tout</string>
+    <string name="Morning_Evening"><![CDATA[Matin soir]]></string>
+    <string name="Travel">Voyage</string>
+    <string name="Home_Family"><![CDATA[Maison & Famille]]></string>
+    <string name="Joy_Distress"><![CDATA[Joie et détresse]]></string>
+    <string name="Prayer">Prière</string>
+    <string name="Praising_allah">Louant Allah</string>
+    <string name="Nature">La nature</string>
+    <string name="Good_Etiquette">Bonne étiquette</string>
+    <string name="Food_drink"><![CDATA[Nourriture boisson]]></string>
+    <string name="Book_business">Book Business</string>
+    <string name="Religion_clothing">Vêtements de religion</string>
+    <string name="Incense_Business">Entreprise d\'encens</string>
+    <string name="My_favourite_Mosque">Ma mosquée préférée</string>
+    <string name="Enter_Mosque_name">Entrez le nom de la mosquée</string>
+    <string name="khutba">khutba</string>
+    <string name="Education">Éducation</string>
+    <string name="Activity">Activités</string>
+    <string name="Rules_of_the_Game">Règles du jeu</string>
+    <string name="Lets_play">Jouons</string>
+    <string name="Correcrt_Answer">Bonne réponse</string>
+    <string name="Replay">Rejouer</string>
+    <string name="Wrong_answer">Mauvaise réponse</string>
+    <string name="Done">Terminé</string>
+    <string name="Profile">Profil</string>
+    <string name="My_home_mosque">Ma maison mosquée</string>
+    <string name="My_Donation">Mon don</string>
+    <string name="Following">Suivant</string>
+    <string name="Following_Mosque">Suite de la mosquée</string>
+    <string name="Home_Mosque">Maison Mosquée</string>
+    <string name="Add_new_home">Ajouter une nouvelle mosquée</string>
+    <string name="Umrah">Omra</string>
+    <string name="Hajj">Hajj</string>
+    <string name="A_request">Une demande des pèlerins</string>
+    <string name="Departure_from">Départ de votre maison</string>
+    <string name="The_method_of_ehram">La méthode de ehram</string>
+    <string name="The_ehram_of_men">L\'ehram des hommes</string>
+    <string name="The_ehram_of_women">L\'ehram des femmes</string>
+    <string name="The_ehram_of_children">L\'ehram des enfants</string>
+    <string name="The_three_type_of_hujj">Les trois types de hujj</string>
+    <string name="Qibla">Qibla</string>
+    <string name="All_community">Tout</string>
+    <string name="Mine">Mien</string>
+    <string name="street_address">Adresse de rue</string>
+    <string name="confirm_Pass">Confirmez le mot de passe</string>
+    <string name="Log_in_to">Connectez-vous à votre compte</string>
+    <string name="Login_via_Facebook">Connectez-vous via Facebook</string>
+    <string name="Login_via_Gmail">Connectez-vous via Gmail</string>
+    <string name="Type_business_name_heare">Saisissez le nom de l\'entreprise ici</string>
+    <string name="Map">Carte</string>
+    <string name="Signup_via_Facebook">Inscription via Facebook</string>
+    <string name="Signup_via_Gmail">Inscription via Gmail</string>
+    <string name="Phone_number">Entrez le numéro de téléphone</string>
+    <string name="Business_name">Nom de l\'entreprise</string>
+    <string name="New_Request">Nouvelle requête</string>
+    <string name="Enter_your_request">Entrez votre demande</string>
+    <string name="Post">Publier</string>
+    <string name="Board">Planche</string>
+    <string name="Prayer_Schedule">Horaire de prière</string>
+    <string name="Current_Mosque">Mosquée actuelle</string>
+    <string name="Mosque_near_you">Mosquée près de chez vous</string>
+    <string name="Mosque_List">Liste des mosquées</string>
+    <string name="View_more">Voir plus</string>
+    <string name="Education_Detail">Détail de l\'éducation</string>
+    <string name="Suggestion">Suggestions</string>
+    <string name="Write_message">Écrire un message</string>
+    <string name="Jama_Masjid">Jama Masjid</string>
+    <string name="Association">Associés</string>
+    <string name="Zakat_Al_Fitr">Zakat Al Fitr</string>
+    <string name="Select_payment_method">Sélectionnez le mode de paiement</string>
+    <string name="Donation_Now">Faites un don maintenant</string>
+    <string name="News">Nouvelles</string>
+    <string name="Course_Objective">Objectif du cours</string>
+    <string name="Methodology">Méthodologie</string>
+    <string name="Duration">Durée</string>
+    <string name="Registration_Fee">Frais d\'inscription</string>
+    <string name="Pre_requisites">Conditions préalables</string>
+    <string name="About_the_Instructor">À propos de l\'instructeur</string>
+    <string name="Calender">Calandre</string>
+    <string name="Activities">Activités</string>
+    <string name="Total_Donation_Amount">Montant total du don</string>
+    <string name="Donate_Now">Faire un don maintenant</string>
+    <string name="Friday_Salat_time">Vendredi heure de Salat</string>
+    <string name="WIS_TV">WIS TV</string>
+    <string name="All_Suppilication">Tout suppilication</string>
+    <string name="News_Detail">Détail des nouvelles</string>
+    <string name="Activity_Detail">Détail de l\'activité</string>
+    <string name="Previous">Précédent</string>
+    <string name="Forward">Vers l\'avant</string>
+    <string name="Type_organization_name_heare">Saisissez le nom de l\'organisation ici</string>
+    <string name="Activities_Detail">Détail des activités</string>
+    <string name="Settings">Réglages</string>
+    <string name="Juz">Juz</string>
+    <string name="My_Quran">Mon Coran</string>
+    <string name="Delete">Supprimer</string>
+    <string name="Username">Nom d\'utilisateur</string>
+    <string name="Enter_family_member_name">Entrez un membre de la famille</string>
+
+    <string name="profile_desc">Profil</string>
+    <string name="profile_title">Titre</string>
+    <string name="posts">Des postes</string>
+    <string name="followers">Suivre</string>
+    <string name="following">Suivant</string>
+    <string name="msg_error_unable_select_profile_pic">Impossible de définir l\'image de profil. Veuillez réessayer!</string>
+    <string name="lbl_set_profile_photo">Sélectionnez l\'image</string>
+    <string name="lbl_take_camera_picture">Prendre une photo</string>
+    <string name="lbl_choose_from_gallery">Choisir depuis la galerie</string>
+    <string name="toast_image_intent_null">L\'option de sélection d\'image est manquante!</string>
+    <string name="Add_note">Ajouter une note</string>
+    <string name="view_more">Voir plus</string>
+    <string name="donation_amount">Montant du don</string>
+    <string name="no_of_people">Nombre de personnes</string>
+    <string name="iftar">Iftar</string>
+    <string name="total_donation_amount">Montant total du don</string>
+    <string name="enter_family_member_name_nseparated_by_comma">Entrez le nom du membre de la famille \n séparé par une virgule</string>
+    <string name="registration">enregistrement</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+    <string name="submit">Soumettre</string>
+    <string name="amount">Montante</string>
+    <string name="pay_now">Payez maintenant</string>
+    <string name="new_password">nouveau mot de passe</string>
+    <string name="reset_password_token">Réinitialiser le jeton de mot de passe</string>
+    <string name="pls_enter_username">Veuillez saisir un nom d\'utilisateur</string>
+    <string name="pls_enter_mobile_no">Numéro de portable avec code pays</string>
+    <string name="pls_enter_password">Mot de passe non entré</string>
+    <string name="password_match">Le mot de passe ne correspond pas</string>
+    <string name="day">journée</string>
+    <string name="time">Temps</string>
+    <string name="login">Login</string>
+    <string name="tandc">Terms and Condition</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/background_transparent"
+    android:orientation="vertical"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tv_Mosque_Name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="26dp"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="Maruti Suzuki Swift"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_descrition1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Mosque_Name"
+        android:layout_alignStart="@+id/tv_Mosque_Name"
+        android:layout_below="@+id/tv_Mosque_Name"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:gravity="center|left"
+        android:lines="2"
+        android:paddingRight="10dp"
+        android:text="MP 09 AA 1111"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/Iv_car"
+        android:visibility="gone"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/tv_Mosque_Name"
+        android:layout_toLeftOf="@+id/tv_descrition1"
+        android:layout_toStartOf="@+id/tv_descrition1"
+        app:srcCompat="@drawable/mosque_1" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/tv_Mosque_Name"
+        android:layout_alignBottom="@+id/tv_Mosque_Name"
+        android:layout_alignEnd="@+id/view"
+        android:layout_alignRight="@+id/view"
+        android:text="$ 200"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_descrition1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/Grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center|left"
+        android:layout_below="@+id/view"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_date" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:id="@+id/date"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:text="1 Feb 2019, 7:00 PM"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

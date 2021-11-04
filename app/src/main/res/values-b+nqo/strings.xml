@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">ߡߌ߬ߙߌ߲߬ߘߌ</string>
+    <string name="title_home">ߓߏ߬ߟߏ߲߬ߘߊ</string>
+    <string name="title_dashboard">ߢߍߡߌߘߊߥߟߊ</string>
+    <string name="title_notifications">ߟߊ߬ߛߏ߬ߓߌ߬ߟߌ ߟߎ߬</string>
+    <string name="Please_wait">ߌ ߖߏ߫ ߌ ߕߐ߬</string>
+    <string name="drawer_close">ߊ߬ ߘߊߕߎ߲߯</string>
+    <string name="drawer_open">ߊ߬ ߘߊߦߟߍ߬</string>
+    <string name="Clear">ߊ߬ ߝߌߘߊ߲߫</string>
+    <string name="No_Internet_Connection">ߓߟߐߟߐ߫ ߜߊ߲ߞߎ߲ߠߌ߲߫ ߕߴߦߋ߲߬</string>
+    <string name="You_dont_have_internet_connection">ߓߟߐߟߐ ߟߊ߫ ߜߊ߲ߞߎ߲ߠߌ߲߫ ߕߴߌ ߓߟߏ߫</string>
+    <string name="Retry">ߡߊߝߍߣߍ߲ߡߛߊߦߌ</string>
+    <string name="Exit">ߓߐߟߌ</string>
+    <string name="Yes">ߊ߬ߥߐ߫</string>
+    <string name="No">ߍ߲߬ߍ߲߫</string>
+    <string name="text_enter_fname">ߕߐ߯ ߝߟߐ ߡߊ߫ ߟߊߘߏ߲߬</string>
+    <string name="text_enter_lname">ߕߐ߯ ߟߊߓߊ߲ ߡߊ߫ ߟߊߘߏ߲߬</string>
+    <string name="text_enter_valid_email">ߌ ߖߏ߫ ߞߊ߬ ߢ-ߞߏ߲ߘߏ ߡߊߟߐ߲ߟߊ߲ ߟߊߘߏ߲߬</string>
+    <string name="Forgot_password">ߌ ߓߘߊ߫ ߢߌ߬ߣߊ߬ ߌ ߟߊ߫ ߕߊ߬ߡߌ߲߬ߞߊ߲ ߠߊ߫ ߓߊ߬</string>
+    <string name="Please_chack">ߌ ߖߏ߫ ߞߵߌ ߟߊ߫ ߢ-ߞߏ߲ߘߏ߫ ߟߊߕߊ߯ߣߍ߲ ߢߊߘߐߜߍ߫ ߕߊ߬ߡߌ߲߬ߞߊ߲  ߘߊߡߌߣߡߊߛߊߦߌߞߏ ߘߐ߫</string>
+    <string name="Reset_pass">ߕߊ߬ߡߌ߲߬ߞߊ߲ ߘߊߡߌߣߡߊߛߊߦߌ߫</string>
+    <string name="Forget_pass">ߒ ߓߘߊ߫ ߢߌ߬ߣߊ߫ ߕߊ߬ߡߌ߲߬ߞߊ߲ ߠߊ߫</string>
+    <string name="Please_inter">ߌ ߖߏ߫ ߞߵߌ ߟߊ߫ ߢ.ߞߏ߲ߘߏ ߟߊߘߏ߲߬</string>
+    <string name="Location_not_available">ߞߍߦߙߐ ߕߍ߫ ߓߟߏߞߘߐ߫߸ ߞߊ߬ ߘߞߖ GPS ߘߊߦߟߍ߬ ߓߊ߬؟</string>
+    <string name="Activate_GPS_to_use_use">ߞߊ߬ ߘߞߖ GPS ߟߊߞߎߣߎ߲ ߗߋߢߊߟߌ ߟߊߓߊ߯ߙߊ߫ ߞߊߡߊ߬ ߓߊ߬؟</string>
+    <string name="Login">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲</string>
+    <string name="register">ߕߐ߯ߟߊߡߙߊ</string>
+    <string name="Password">ߕߊ߬ߡߌ߲߬ߞߊ߲ </string>
+    <string name="Email">ߢ.ߞߏ߲ߘߏ ߟߊߘߏ߲߬</string>
+
+    <string name="text_test" >fadsfasdfadsf</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="track_number">ߞߎ߲߬ߕߋߟߋ߲</string>
+
+    <!-- font families -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="dialog_permission_title">ߛߐ߲߬ ߊ߬ ߦߋ߫ ߝߛߊߦߌ߫</string>
+    <string name="dialog_permission_message">ߟߥߊߟߌߟߊ߲ ߣߌ߲߬ ߢߌߣߌ߲ߣߍ߲߫ ߛߐ߲߭ ߠߋ߫ ߡߵߊ߬ ߦߋ߫ ߞߊ߬ ߗߋߘߊ ߣߌ߲߬ ߟߊߓߊ߯ߙߊ߫</string>
+    <string name="go_to_settings">ߕߊ߯ ߟߊ߬ߓߍ߲߬ߢߐ߰ߡߦߊ߬ߘߊ ߟߊ߫</string>
+
+    // Facebook .....
+    <string name="facebook_app_id">1934372016684577</string>
+    <string name="fb_login_protocol_scheme">fb1934372016684577</string>
+
+    // Google
+
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">Loading…</string>
+    <string name="auth_code_fmt">ߕߎ߬ߢߊ߲߬ߕߋ߬ߦߊ ߘߏߝߙߍߕߍ: %s</string>
+    <string name="id_token_fmt">ߡߊ߬ߟߐ߲߬ ߘߏߝߙߍߕߍ: %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">ߝߍ߭ ߦߋ߫ Google Play ߗߋߢߊߟߌ ߟߎ߬ ߘߐ߫ %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">ߓߐߟߌ</string>
+    <string name="disconnect">ߜߊ߲߬ߞߎ߲߬ߓߐ߬ߟߌ</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">ߜ߭ߎߜ߭ߐߟ ߕߐ߰ߡߊ߬ߦߋߙߋ߲</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">ߝߏ߫ ߞߊ߬ ߜߊ߲߬ߞߎ߲߫ ߟߊ߬ߛߐ߬ߘߐ߲߬ߕߊ ߟߎ߬ ߟߊ߫ ߟߋ߬ ߛߴߌ ߘߴߌ ߟߊ߫ ߢ-ߞߏ߲ߘߏ ߡߊߛߐ߬ߘߐ߲߬</string>
+
+    <!-- Activity Names and Descriptions -->
+    <string name="name_sign_in_activity">SignInActivity</string>
+    <string name="desc_sign_in_activity">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ߣߌ߫ ߓߐߟߌߟߊߘߏ߲ ߊ߬ ߣߌ߫ ߟߊߛߐ߬ߘߐ߲߬ߠߌ߲ ߘߐߛߊ߭</string>
+    <string name="desc_sign_in_activity_scopes">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ،ߓߐߟߌ، ߊ߬ ߣߌ߫ ߜ߭ߎߜ߭ߟ ߜߊߞߌ ߛߐ߲߬ߒߧߋ ߗߋߢߊߟߌ ߟߊߛߐ߬ߘߐ߲ ߘߐߛߊ߬ߟߌ</string>
+    <string name="name_id_token_activity">IdTokenActivity</string>
+    <string name="desc_id_token_activity"> ߟߊߓߊ߯ߙߟߊ ߟߊ߫ ߛߞߊߣߌ߲ߦߊ ߘߏߝߙߍߕߍ ߟߊߛߐ߬ߘߐ߲߬ߠߌ߲</string>
+    <string name="desc_auth_code_activity">ߛߐ߲߬ߒ߬ߧߋ߬ߟߌ ߘߏߝߙߍߕߍ ߡߊߛߐ߬ߘߐ߲߬ߕߐ߫ ߢߊ ߡߍ߲ ߞߊ߲߬ ߏ߬ ߦߌ߬ߘߊ߫ ߞߊ߬ ߛߌߟߊ߫ ߘߴߌ ߟߊ߫ ߗߋߢߊߘߊ߮ ߡߊ߬</string>
+    <string name="name_auth_code_activity">ServerAuthCodeActivity</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">363242854370-urn77d3nmu1mml6codca4moto6hcocfd.apps.googleusercontent.com</string>
+    <string name="name">ߕߐ߮ :</string>
+    <string name="Login_to">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ߌ ߟߊ߫ ߖߊ߬ߕߋ߬ߘߊ ߟߊ߫</string>
+    <string name="Enter_your_email"><![CDATA[ߢ-ߞߏ߲ߘߏ ߟߊߘߏ߲߬ ߊ߬ ߣߌ߫ ߕߊ߬ߡߌ߲߬ߞߊ߲ ߞߊ߬ ߕߐ߯ߟߊߘߏ߲ ߞߴߌ ߟߊ߫ ߖߊ߬ߕߋ߬ߘߊ ߟߊ߫]]></string>
+    <string name="or_log">ߥߟߊ߫ ߌ ߜߊ߲߬ߞߎ߲߬ߠߌ߲ ߣߌ߲߬ ߝߍ߬</string>
+    <string name="I_am_a">ߒߠߋ</string>
+    <string name="User">ߟߊߓߊ߯ߙߟߊ</string>
+    <string name="Business_Owner">ߖߊ߬ߥߏ߬ߘߊ߬ ߕߌ߮</string>
+    <string name="Mosque_manager">ߕߌ߲ߓߌߘߌ߲ߘߊ ߗߋߕߌ߮</string>
+    <string name="Continue">ߊ߬ ߘߊߓߊ߲߫</string>
+    <string name="Sign_Up">ߕߐ߯ߟߊߘߏ߲</string>
+    <string name="Sign_Up2">ߕߐ߯ߟߊߘߏ߲</string>
+    <string name="Phone">ߜߋߟߋ߲ߜߋߟߋ߲߫ ߝߙߍߕߍ ߟߊߘߏ߲߬</string>
+    <string name="By_clicking_continue">ߘߊߓߊ߲ߠߌ߲ ߞߎ߬ߘߎ ߛߐ߲߬ߞߌ߲ ߝߍ߬߸ ߌ ߓߘߊ߫ ߒ߬ ߠߊ߫ ߞߏߢߊ ߣߴߊ߬ ߞߊ߲ ߠߎ߫ ߤߎ߲߬ߠߊߡߌ߬ߘߊ߬</string>
+    <string name="or_sign_up">ߥߟߊ߫ ߌ ߦߴߌ ߕߐ߯ߟߊߘߏ߲ ߞߍ߫ ߣߌ߲߬ ߝߍ߬</string>
+    <string name="Create_new_pass">ߕߊ߬ߡߌ߲߬ߞߊ߲߬ ߞߎߘߊ߫ ߛߌ߲ߘߌ</string>
+    <string name="Enter_new_pass">ߕߊ߬ߡߌ߲߬ߞߊ߲߬ ߞߎߘߊ߫ ߟߊߘߏ߲߬</string>
+    <string name="Enter_verification_code">ߕߎ߬ߢߊ߬ߒ߬ߕߋ߬ߦߊ߬ ߝߙߍߕߍ ߟߊߘߏ߲߬</string>
+    <string name="Enter_verification_code_sent">ߕߎ߬ߢߊ߬ߒ߬ߕߋ߬ߦߊ߬ ߝߙߍߕߍ ߟߊߘߏ߲߬ ߡߍ߲ ߟߊߕߊ߯ߣߍ߲߫ ߌ ߟߊ߫ ߢߎߡߍߙߋ߲ߞߏ߲ߘߏ ߛߌߟߊ ߝߍ߬</string>
+    <string name="Create_new_account">ߖߊ߬ߕߋ߬ߘߊ߬ ߞߎߘߊ߫ ߛߌ߲ߘߟߌ</string>
+    <string name="Mosque_name">ߕߌ߲ߓߌߘߌ߲ߘߊ ߕߐ߮</string>
+    <string name="Name_contact_person">ߡߐ߰ ߟߊߛߐ߬ߘߐ߲߬ߕߊ ߕߐ߮</string>
+    <string name="Zip_contact">ߗߋߓߏ߲ ߝߙߍߕߍ</string>
+    <string name="or">ߥߟߊ߫</string>
+    <string name="Choose_location_automatically">ߓߘߊߦߙߐ ߛߎߥߊ߲ߘߌ߫ ߞߍߒߖߘߍ߬ߦߋ</string>
+    <string name="Type_Mosque_name">ߕߌ߲ߓߌߘߌ߲ߘߊ ߕߐ߮ ߛߓߍ߫</string>
+    <string name="Zuhru">ߛߊ߬ߟߌߝߊ߬ߣߊ </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߡߦߊ߬ߘߊ</string>
+    <string name="Find_a_mosque">ߕߌ߲ߓߌߘߌ߲ߘߊ ߦߋߟߌ</string>
+    <string name="Todays_feed">ߟߏ߲ ߓߊߟߏ</string>
+    <string name="title_bookmark">ߞߐߡߊߛߙߋ</string>
+    <string name="title_search">ߢߌߣߌ߲ߠߌ߲</string>
+    <string name="title_danation">ߝߌߛߙߌ</string>
+    <string name="tilte_Perf">ߘߊߡߊ</string>
+    <string name="Quran">ߘߐ߬ߛߊߙߌ</string>
+    <string name="Community">ߞߊ߬ߝߏ</string>
+    <string name="Setting">ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߡߦߊ߬ߘߊ</string>
+    <string name="Qiblah">ߞߐߘߐ߲ߞߎ߲</string>
+    <string name="Quiz">ߡߊߝߍߣߍ߲ߠߌ߲</string>
+    <string name="Personnage">ߡߊ߲߬ߕߎ߬ߙߋ߬ߦߊ</string>
+    <string name="Zakkat_Calculator">ߊߟߊߣߌ ߖߊ߬ߕߋ߬ߓߐ߬ߟߊ</string>
+    <string name="Hajj_and_Umrah">ߡߊ߬ߓߊߕߏ ߣߌ߫ ߡߍ߲߬ߛߍ߲߬ߦߊ߬ߟߌ</string>
+    <string name="Supplication">ߘߡߊߞߊߛߌ</string>
+    <string name="Business">ߖߊ߬ߥߏ߬ߘߊ</string>
+    <string name="Organization">ߛߌ߲߬ߝߏ߲߬ߧߊ߬ߘߊ</string>
+    <string name="Donation">ߝߌߛߙߌ</string>
+    <string name="Prefs">ߘߊߡߌߘߊ</string>
+    <string name="Select_home_mosque">ߟߎ ߕߌ߲ߓߌߘߌ߲ߘߊ ߛߎߥߊ߲ߘߌ</string>
+    <string name="Open">ߘߊߦߟߍ߬</string>
+    <string name="Prayer_Time">ߕߌ߲ߞߌ߫ ߕߎߡߊ</string>
+    <string name="Sura">ߝߐߘߊ</string>
+    <string name="General_knowledge">ߝߘߏ߬ߓߊ߬ ߟߐ߲ߠߌ߲</string>
+    <string name="Hujj_knowledge">ߦߌ߬ߘߊ߬ߞߏ ߟߐ߲ߠߌ߲</string>
+    <string name="Religion_knowledge">ߣߊߡߎ߲ ߟߐ߲ߠߌ߲</string>
+    <string name="Quran_knowledge">ߘߐ߬ߛߊߙߌ ߟߐ߲ߠߌ߲</string>
+    <string name="Notification">ߖߊ߲߬ߘߐ߬ߓߌߟߊ</string>
+    <string name="Language_of">ߟߥߊߟߌߟߊ߲ ߞߊ߲</string>
+    <string name="Quran_Translation">ߘߐ߬ߛߊߙߌ ߘߟߊߡߌߘߊ</string>
+    <string name="Prayer_Names">ߕߌ߲ߞߌ ߕߐ߮</string>
+    <string name="Term_and_Condition">ߞߕߌߦߊ ߟߎ߬ ߣߌ߫ ߛߙߊߕߌ ߟߎ߬</string>
+    <string name="Language">ߞߊ߲</string>
+    <string name="Log_out">ߜߊ߲߬ߞߎ߲߬ߓߐ߬ߟߌ</string>
+    <string name="What_you_are">ߌ ߦߋ߫ ߡߎ߲߬ ߢߌߣߌ߲ߞߏ ߘߐ߫؟</string>
+    <string name="All">ߊ߬ ߓߍ߯</string>
+    <string name="Morning_Evening"><![CDATA[ߛߐ߱ߡߊ߬ ߣߌ߫ ߥߎ߬ߙߊ߬]]></string>
+    <string name="Travel">ߕߊ߯ߡߊߘߐߕߊ߮</string>
+    <string name="Home_Family"><![CDATA[ߟߎ ߣߌ߫ ߞߐߙߍ]]></string>
+    <string name="Joy_Distress"><![CDATA[ߝߙߍ ߣߌ߫ ߜߍ߲߬ߘߍ]]></string>
+    <string name="Prayer">ߘߎߓߊ</string>
+    <string name="Praising_allah">ߛߊߣߌ߲ߧߊ ߊߟߊ߫ ߦߋ߫</string>
+    <string name="Nature">ߛߎ߲ߞߎ߲</string>
+    <string name="Good_Etiquette">ߡߛߍ߬ߞߍ߬ߡߛߍ߬ߞߍ߬ ߓߘߍ</string>
+    <string name="Food_drink"><![CDATA[ߘߊߥߎ߲ߠߌ߲ߝߋ߲ ߣߌ߫ ߡߌ߲߬ߝߋ߲]]></string>
+    <string name="Book_business">ߖߊ߬ߥߏ߬ߘߊ߬ ߟߍߙߊ</string>
+    <string name="Religion_clothing">ߣߊߡߎ߲߫ ߝߊߘߌߦߊߓߐ</string>
+    <string name="Incense_Business">ߖߊ߬ߥߏ߬ߘߊ ߥߛߎߟߊ߲</string>
+    <string name="My_favourite_Mosque">ߒ ߘߌߦߊߣߊ߲߫ ߕߌ߲ߓߌߘߌ߲ߘߊ</string>
+    <string name="Enter_Mosque_name">ߕߌ߲ߓߌߘߌ߲ߘߊ ߕߐ߮ ߟߊߘߏ߲߬</string>
+    <string name="khutba">ߓߋߟߋ߲ߠߊ</string>
+    <string name="Education">ߟߊ߬ߞߟߏ߬ߞߟߏ߬ߟߌ</string>
+    <string name="Activity">ߡߜߊ߬ߞߏ ߟߎ߬</string>
+    <string name="Rules_of_the_Game">ߢߣߊߕߍ߮ ߕߐ߲ ߠߎ߬</string>
+    <string name="Lets_play">ߊߟߎ߫ ߣߵߊ߲ ߕߏߟߏ߲߫</string>
+    <string name="Correcrt_Answer">ߖߋ߬ߓߌ߬ߞߏ߬ߢߌߡߊ</string>
+    <string name="Replay">ߕߏߟߏ߲ߡߛߊߦߟߌ</string>
+    <string name="Wrong_answer">ߖߋ߬ߓߌ߬ߞߏ߬ ߖߎ߮</string>
+    <string name="Done">ߊ߬ ߓߘߊ߫ ߓߊ߲߫</string>
+    <string name="Profile">ߞߐߕߐ߯ߘߐߛߙߋ</string>
+    <string name="My_home_mosque">ߒ ߠߊ߫ ߟߎ ߡߌ߬ߛߙߌ</string>
+    <string name="My_Donation">ߒ ߠߊ߫ ߖߘߍ߬ߡߊ߬ߓߐ</string>
+    <string name="Following">ߟߊߕߎ߲߰ߠߊ</string>
+    <string name="Following_Mosque">ߓߌ߬ߟߊ ߕߌ߲ߓߌߘߌ߲ߘߊ ߞߐ߫</string>
+    <string name="Home_Mosque">ߟߎ ߕߎ߲ߓߌߘߌ߲ߘߊ</string>
+    <string name="Add_new_home">ߟߎ ߕߌ߲ߓߌߘߌ߲ߘߊ߫ ߞߎߘߊ߫ ߝߙߊ߬ߟߌ</string>
+    <string name="Umrah">ߡߍ߲߬ߛߍ߲߬ߦߊ߬ߟߌ</string>
+    <string name="Hajj">ߡߊ߬ߓߊߕߏ</string>
+    <string name="A_request">ߡߓߊ߬ߕߏ߬ߘߋ߲ ߠߊ߫ ߢߌߣߌ߲ߒߝߍ߭</string>
+    <string name="Departure_from">ߓߐߟߌ ߓߏ߲ ߠߊ߫</string>
+    <string name="The_method_of_ehram">ߣߊߡߎ߲ߘߐߦߊ ߢߊ߬ߢߊ</string>
+    <string name="The_ehram_of_men">ߗߍ߭ ߟߊ߫ ߣߊߡߎ߲ߘߐߦߊߟߌ</string>
+    <string name="The_ehram_of_women">ߡߏ߬ߛߏ ߟߊ߫ ߣߊߡߎ߲ߘߐߦߊߟߌ</string>
+    <string name="The_ehram_of_children">ߘߋ߲ߣߍ߲ ߠߊ߫ ߣߊߡߎ߲ߘߐߦߊߟߌ</string>
+    <string name="The_three_type_of_hujj">ߤߖߌߦߊ ߞߍߢߊ߫ ߛߊ߬ߓߊ</string>
+    <string name="Qibla">ߞߐߘߐ߲ߞߎ߲</string>
+    <string name="All_community">ߞߙߎߞߙߍ</string>
+    <string name="Mine">ߒ ߕߊ</string>
+    <string name="street_address">ߛߌߟߊ ߛߊ߲߬ߓߊ߬ߕߐ߮</string>
+    <string name="confirm_Pass">ߕߊ߬ߡߌ߲߬ߞߊ߲ ߤߎ߲߬ߠߊ߬ߡߌߘߊ</string>
+    <string name="Log_in_to">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ߌ ߟߊ߫ ߖߊ߬ߕߋ߬ߘߊ ߟߊ߫</string>
+    <string name="Login_via_Facebook">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ߌ ߝߊߛߑߓߎߞ ߝߍ߬</string>
+    <string name="Login_via_Gmail">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ߌ ߜ߭ߌߡߍߟ ߝߍ߬</string>
+    <string name="Type_business_name_heare"> ߖߊ߬ߥߏ߬ߘߊ ߕߐ߮ ߛߓߍ߫ ߦߊ߲߬</string>
+    <string name="Map">ߔߊ߬ߔߘߊ</string>
+    <string name="Signup_via_Facebook">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ߝߊߛߑߓߎߞ ߛߌߟߊ ߝߍ߬</string>
+    <string name="Signup_via_Gmail">ߘߏ߲߬ߕߐ߰ߟߊ߬ߘߏ߲ ߜ߭ߌߡߍߟ ߛߌߟߊ ߝߍ߬</string>
+    <string name="Phone_number">ߜߋߟߋ߲ߜߋߟߋ߲߫ ߝߙߍߕߍ ߟߊߘߏ߲߬</string>
+    <string name="Business_name">ߖߊ߬ߥߏ߬ߘߊ ߕߐ߮</string>
+    <string name="New_Request">ߢߌߣߌ߲ߕߊ߫ ߞߎߘߊ߫</string>
+    <string name="Enter_your_request">ߌ ߟߊ߫ ߢߌߣߌ߲ߕߊ ߟߊߘߏ߲߬</string>
+    <string name="Post">ߊ߬ ߟߊߖߍ߲ߛߍ߲߫</string>
+    <string name="Board">ߛߌ߰ߟߌ߬ߜߘߋ</string>
+    <string name="Prayer_Schedule">ߛߊߟߌ ߢߍߥߟߊ</string>
+    <string name="Current_Mosque">ߕߋ߲߭ߕߋ߲߬ ߕߌ߲ߓߌߘߌ߲ߘߊ</string>
+    <string name="Mosque_near_you">ߌ ߘߊߝߍ߫ ߕߌ߲ߓߌߘߌ߲ߘߊ</string>
+    <string name="Mosque_List">ߕߌ߲ߓߌߘߌ߲ߘߊ ߛߙߍߘߍ</string>
+    <string name="View_more">ߛߌߦߊߡߊ߲߫ ߦߋ߫</string>
+    <string name="Education_Detail">ߟߊ߬ߞߟߏ߬ߞߟߏ߬ߟߌ ߕߐ߬ߝߍ߬ߦߊ</string>
+    <string name="Suggestion">ߡߙߌߣߊ߲ߦߌߘߊ</string>
+    <string name="Write_message">ߗߋߛߓߍߙߋ߲ ߛߓߍ߫</string>
+    <string name="Jama_Masjid">ߖߎߡߊ߫ ߕߌ߲ߓߌߘߌ߲ߘߊ</string>
+    <string name="Association">ߜߙߊ߬ߓߊ߰ߕߐ ߟߎ߬</string>
+    <string name="Zakat_Al_Fitr">ߡߌ߲߬ߠߌ߲߬ߖߞߊ</string>
+    <string name="Select_payment_method">ߘߟߌ ߞߍߢߊ ߡߊߡߌ߬ߘߊ</string>
+    <string name="Donation_Now">ߝߌߛߙߌ ߘߌ߫ ߛߌߛߍ߲߬</string>
+    <string name="News">ߞߎ߲߬ߠߊ߬ߝߎߟߋ߲</string>
+    <string name="Course_Objective">ߥߟߊ߬ߘߊ ߢߌߣߌ߲ߞߏ</string>
+    <string name="Methodology">ߞߎߘߍߞߎߘߍߦߊ</string>
+    <string name="Duration">ߞߎ߲߬ߕߊ߮</string>
+    <string name="Registration_Fee">ߕߐ߯ߟߊߘߏ߲ ߖߐ߰ߣߍ</string>
+    <string name="Pre_requisites">ߢߌߣߌ߲ߝߋ߲߫ ߢߍߟߊ</string>
+    <string name="About_the_Instructor">ߛߏ߯ߙߏߢߊ ߞߊ߲߬ߞߎߡߊ</string>
+    <string name="Calender">ߛߊ߲߬ߥߟߊ</string>
+    <string name="Activities">ߡߜߊ߬ߞߏ ߟߎ߬</string>
+    <string name="Total_Donation_Amount">ߝߌߛߙߌ ߡߎ߰ߡߍ ߓߙߍ߬ߦߊ</string>
+    <string name="Donate_Now">ߝߌߛߙߌ ߘߌ߫ ߛߌߛߍ߲߬</string>
+    <string name="Friday_Salat_time">ߖߎߡߊߟߏ߲ ߕߌ߲ߞߌ߫ ߕߎߡߊ</string>
+    <string name="WIS_TV">WIS TV</string>
+    <string name="All_Suppilication">ߊߟߊ-ߡߕߊߞߊ߲ ߡߎ߰ߡߍ</string>
+    <string name="News_Detail">ߞߎ߲߬ߠߊ߬ߝߎߟߋ߲ ߠߎ߫ ߕߐ߬ߝߍ߬ߦߊ</string>
+    <string name="Activity_Detail">ߡߜߊ߬ߞߏ ߟߎ߫ ߕߐ߬ߝߍ߬ߦߊ</string>
+    <string name="Previous">ߞߐߛߊߦߌ߲ߠߌ߲</string>
+    <string name="Forward">ߢߍߕߐߝߊ߲</string>
+    <string name="Type_organization_name_heare">ߛߌ߲߬ߝߏ߲߬ߧߊ߬ߟߌ ߕߐ߮ ߛߓߍ߫ ߦߊ߲߬</string>
+    <string name="Activities_Detail">ߡߜߊ߬ߞߏ ߟߎ߫ ߕߐ߬ߝߍ߬ߦߊ</string>
+    <string name="Settings">ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߡߦߊ߬ߘߊ</string>
+    <string name="Juz">ߞߘߐ߬ߡߊ߲߫</string>
+    <string name="My_Quran"> ߒ ߠߊ߫ ߘߐ߬ߛߊߙߌ</string>
+    <string name="Delete">ߖߏ߬ߛߌ߬ߟߌ</string>
+    <string name="Username">ߟߊߓߊ߯ߙߟߊ ߕߐ߮</string>
+    <string name="Enter_family_member_name">ߞߐߙߍ ߡߐ߱ ߘߏ߫ ߕߐ߮ ߟߊߘߏ߲߬</string>
+
+    <string name="profile_desc">ߞߐߕߐ߯ߘߐߛߙߋ</string>
+    <string name="profile_title">ߞߎ߲߬ߕߐ߮</string>
+    <string name="posts">ߕߘߍ߬ߒ߬ߘߐ߬ߟߌ ߟߎ߬</string>
+    <string name="followers">ߊ߬ ߣߐ߬ߡߌ߬ߣߊ߬</string>
+    <string name="following">ߟߊߕߎ߲߰ߠߊ</string>
+    <string name="msg_error_unable_select_profile_pic">ߞߐߕߐ߯ߘߐߛߙߋ ߖߌ߬ߦߊ߬ߓߍ ߕߴߛߋ߫ ߘߊ߲߬ߠߊߕߍ߰ ߟߊ߫. ߌ ߡߊߝߍߣߍ߲߫ ߞߐߟߊ߫</string>
+    <string name="lbl_set_profile_photo">ߖߌ߬ߦߊ߬ߓߍ ߛߎߥߊ߲ߘߌ߫</string>
+    <string name="lbl_take_camera_picture">ߖߌ߬ߦߊ߬ߓߍ ߘߏ߫ ߖߊ߬ߛߏ߲߬</string>
+    <string name="lbl_choose_from_gallery">ߊ߬ ߛߎߥߊ߲ߘߌ߫ ߖߌ߬ߦߊ߬ߝߏ ߞߣߐ߫</string>
+    <string name="toast_image_intent_null">ߖߌ߬ߦߊ߬ߓߍ ߢߣߊߕߊ߬ ߦߙߐ ߕߴߦߋ߲߬߹</string>
+    <string name="Add_note">ߦߟߌߣߐ ߟߎ߫ ߝߙߵ ߊ߬ ߞߊ߲߬</string>
+    <string name="view_more">View More</string>
+    <string name="donation_amount">Donation Amount</string>
+    <string name="no_of_people">No. of People</string>
+    <string name="iftar">Iftar</string>
+    <string name="total_donation_amount">Total Donation Amount</string>
+    <string name="enter_family_member_name_nseparated_by_comma">Enter family member name \nseparated by comma</string>
+    <string name="registration">Registration</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="amount">Amount</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="new_password">New Password</string>
+    <string name="reset_password_token">Reset Password Token</string>
+    <string name="pls_enter_username">Please enter username</string>
+    <string name="pls_enter_mobile_no">Mobile number with country code</string>
+    <string name="pls_enter_password">Password not entered</string>
+    <string name="password_match">Password not matching</string>
+    <string name="day">Day</string>
+    <string name="time">Time</string>
+    <string name="login">Login</string>
+    <string name="tandc">Terms and Condition</string>
+</resources>

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "com.example.jean.jcplayer",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 2,
+        "outputFile": "jcplayer-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/debug/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.example.jean.jcplayer",
+        "split": ""
+      }
+    }
+  ]
+}

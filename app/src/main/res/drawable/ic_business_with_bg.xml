@@ -1,0 +1,19 @@
+<vector android:autoMirrored="true" android:height="203dp"
+    android:viewportHeight="203.549" android:viewportWidth="203.549"
+    android:width="203dp" xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillAlpha="0.82" android:fillColor="#fff"
+        android:pathData="M101.77,101.77m-101.77,0a101.77,101.77 0,1 1,203.55 0a101.77,101.77 0,1 1,-203.55 0" android:strokeAlpha="0.82"/>
+    <path android:fillAlpha="0.16"
+        android:pathData="M101.77,101.77m-101.77,0a101.77,101.77 0,1 1,203.55 0a101.77,101.77 0,1 1,-203.55 0" android:strokeAlpha="0.16">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="101.77500039711595"
+                android:endY="205.53163146972656"
+                android:startX="101.77500039711595"
+                android:startY="-1.9916317462921143" android:type="linear">
+                <item android:color="#FF0077FF" android:offset="0.0"/>
+                <item android:color="#FF000000" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#d7ab8a" android:fillType="evenOdd" android:pathData="M73.41,73.56a9.56,9.56 0,1 0,0 19.12,9.56 9.56,0 0,0 0,-19.12ZM101.67,67A11.82,11.82 0,0 1,113.65 78.7a11.85,11.85 0,1 1,-23.69 0A11.75,11.75 0,0 1,101.67 67ZM120.79,127.79L120.79,106.67c0,-16.27 -37.96,-16.27 -37.96,0L82.83,127.79l18.84,8.85ZM103.09,99.25l2,18.55 -3.42,3.42L98.53,117.8l1.71,-18.55c-1.43,-0.28 -1.43,-3.14 0.57,-3.14h2A1.59,1.59 0,0 1,103.09 99.25ZM130.2,73.56a9.56,9.56 0,1 1,-9.42 9.7A9.56,9.56 0,0 1,130.2 73.56ZM145.61,116.66L145.61,105.53c0,-9.42 -16.27,-11.99 -25.11,-7.71a13.03,13.03 0,0 1,3.42 8.85L123.93,126.36ZM131.35,99.82l1.43,15.13L130.2,117.51 127.35,114.95 129.06,99.82a1.31,1.31 0,0 1,0.28 -2.57L131.06,97.25A1.3,1.3 0,0 1,131.35 99.82ZM58,116.66L58,105.53c0,-9.42 16.27,-11.99 25.11,-7.71a11.82,11.82 0,0 0,-3.42 8.85L79.69,126.36ZM72.27,99.82 L70.56,114.95l2.85,2.57 2.57,-2.57L74.55,99.82a1.31,1.31 0,0 0,-0.28 -2.57L72.56,97.25A1.3,1.3 0,0 0,72.27 99.82Z"/>
+</vector>

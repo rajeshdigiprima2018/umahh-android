@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">राष्ट्र</string>
+    <string name="title_home">घर</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_notifications">सूचनाएं</string>
+    <string name="Please_wait">कृपया प्रतीक्षा करें</string>
+    <string name="drawer_close">बंद करे</string>
+    <string name="drawer_open">खुला हुआ</string>
+    <string name="Clear">स्पष्ट</string>
+    <string name="No_Internet_Connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="You_dont_have_internet_connection">आपके पास इंटरनेट कनेक्शन नहीं है</string>
+    <string name="Retry">पुन: प्रयास करें</string>
+    <string name="Exit">बाहर जाएं</string>
+    <string name="Yes">हाँ</string>
+    <string name="No">नहीं</string>
+    <string name="text_enter_fname">पहला नाम दर्ज नहीं किया गया</string>
+    <string name="text_enter_lname">अंतिम नाम दर्ज नहीं किया गया</string>
+    <string name="text_enter_valid_email">कृपया मान्य ईमेल पता दर्ज करें</string>
+    <string name="Forgot_password">पासवर्ड भूल गए हैं</string>
+    <string name="Please_chack">कृपया अपना ईमेल भेजें रीसेट पासवर्ड टोकन देखें!</string>
+    <string name="Reset_pass">पासवर्ड रीसेट</string>
+    <string name="Forget_pass">पासवर्ड भूल गए</string>
+    <string name="Please_inter">कृपया अपना रजिस्टर ईमेल दर्ज करें।</string>
+    <string name="Location_not_available">स्थान उपलब्ध नहीं है, GPS खोलें?</string>
+    <string name="Activate_GPS_to_use_use">स्थान सेवाओं का उपयोग करने के लिए GPS सक्रिय करें?</string>
+    <string name="Login">लॉग इन करें</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="Password">कुंजिका</string>
+    <string name="Email">ईमेल दर्ज करें</string>
+
+    <string name="text_test" >fadsfasdfadsf</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="track_number">Track</string>
+
+    <!-- font families -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="dialog_permission_title">अनुदान अनुमतियाँ</string>
+    <string name="dialog_permission_message">इस ऐप को इस सुविधा का उपयोग करने के लिए अनुमति की आवश्यकता है। आप उन्हें एप्लिकेशन सेटिंग में अनुदान दे सकते हैं।</string>
+    <string name="go_to_settings">सेटिंग्स में जाओ</string>
+
+    // Facebook .....
+    <string name="facebook_app_id">1934372016684577</string>
+    <string name="fb_login_protocol_scheme">fb1934372016684577</string>
+
+    // Google
+
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">लोड हो रहा है</string>
+    <string name="auth_code_fmt">ऑटो कोड: %s</string>
+    <string name="id_token_fmt">आईडी टोकन:  %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">गूगल प्ले सेवाएँ त्रुटि: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">प्रस्थान करें</string>
+    <string name="disconnect">डिस्कनेक्ट</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">गूगल लोगो</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">आपके ईमेल पते को पुनः प्राप्त करने के लिए संपर्क एक्सेस की आवश्यकता है।</string>
+
+    <!-- Activity Names and Descriptions -->
+    <string name="name_sign_in_activity">गतिविधि में साइन इन करें</string>
+    <string name="desc_sign_in_activity">गतिविधि में साइन इन करें</string>
+    <string name="desc_sign_in_activity_scopes">गूगल डिस्क अनुमतियों के साथ साइन इन करना, साइन आउट करना और पहुंच रद्द करना</string>
+    <string name="name_id_token_activity">आईडी टोकन गतिविधि</string>
+    <string name="desc_id_token_activity">उपयोगकर्ता के लिए एक आईडी टोकन प्राप्त करना।</string>
+    <string name="desc_auth_code_activity">अपने सर्वर को अधिकृत करने के लिए एक ऑटो कोड प्राप्त करने का प्रदर्शन।</string>
+    <string name="name_auth_code_activity">सर्वर ऑटो कोड गतिविधि</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">363242854370-urn77d3nmu1mml6codca4moto6hcocfd.apps.googleusercontent.com</string>
+    <string name="name">नाम:</string>
+    <string name="Login_to">अपने खाते में प्रवेश करें</string>
+    <string name="Enter_your_email"><![CDATA[अपने खाते में लॉग इन करने के लिए अपना ईमेल पता और पासवर्ड दर्ज करें। ]]></string>
+    <string name="or_log">या साथ में लॉग इन करें</string>
+    <string name="I_am_a">मैं एक</string>
+    <string name="User">उपयोगकर्ता</string>
+    <string name="Business_Owner">व्यवसाय के मालिक</string>
+    <string name="Mosque_manager">मस्जिद प्रबंधक</string>
+    <string name="Continue">जारी रखें</string>
+    <string name="Sign_Up">साइन अप करें</string>
+    <string name="Sign_Up2">साइन अप करें</string>
+    <string name="Phone">फ़ोन दर्ज करें</string>
+    <string name="By_clicking_continue">क्लिक करके जारी रखें कि आप हमारे नियमों और शर्तों से सहमत हैं।</string>
+    <string name="or_sign_up">या के साथ साइन अप करें</string>
+    <string name="Create_new_pass">नया पासवर्ड बनाएं</string>
+    <string name="Enter_new_pass">नया पासवर्ड बनाएं</string>
+    <string name="Enter_verification_code">सत्यापन कोड दर्ज करें</string>
+    <string name="Enter_verification_code_sent">अपने ईमेल पते पर भेजा गया सत्यापन कोड डालें</string>
+    <string name="Create_new_account">नया खाता बनाएँ</string>
+    <string name="Mosque_name">मस्जिद का नाम</string>
+    <string name="Name_contact_person">नाम संपर्क व्यक्ति</string>
+    <string name="Zip_contact">पिन कोड</string>
+    <string name="or">या</string>
+    <string name="Choose_location_automatically">स्वचालित रूप से स्थान चुनें</string>
+    <string name="Type_Mosque_name">मस्जिद का नाम टाइप करें</string>
+    <string name="Zuhru">जुहर की नमाज</string>
+    <string name="Lorem">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</string>
+    <string-array name="walkThroughDescription">
+        <item>Lorem ipsum dolor sit amet,\nconsetetsadipscing elitr,sed diam monumy.</item>
+        <item>Lorem ipsum dolor sit amet,\nconsetetsadipscing elitr,sed diam monumy.</item>
+        <item>Lorem ipsum dolor sit amet,\nconsetetsadipscing elitr,sed diam monumy.</item>
+
+    </string-array>
+    <string-array name="walkThroughHeaderArray">
+        <item>Lorem ipsum\ndolor sit amet sit</item>
+        <item>Lorem ipsum\ndolor sit amet sit</item>
+        <item>Lorem ipsum\ndolor sit amet sit</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">समायोजन</string>
+    <string name="Find_a_mosque">एक मस्जिद ढूंढो</string>
+    <string name="Todays_feed">आज का खाना</string>
+    <string name="title_bookmark">बुकमार्क</string>
+    <string name="title_search">खोज</string>
+    <string name="title_danation">दान</string>
+    <string name="tilte_Perf">वरीयता</string>
+    <string name="Quran">कुरान</string>
+    <string name="Community">समुदाय</string>
+    <string name="Setting">समायोजन</string>
+    <string name="Qiblah">क़िबला</string>
+    <string name="Quiz">प्रश्नोत्तरी</string>
+    <string name="Personnage">व्यक्ति</string>
+    <string name="Zakkat_Calculator">ज़कात का कैलकुलेटर</string>
+    <string name="Hajj_and_Umrah">हज और उमराह</string>
+    <string name="Supplication">प्रार्थना</string>
+    <string name="Business">व्यापार</string>
+    <string name="Organization">संगठन</string>
+    <string name="Donation">दान</string>
+    <string name="Prefs">वरीयता</string>
+    <string name="Select_home_mosque">होम मस्जिद का चयन करें</string>
+    <string name="Open">खुला हुआ</string>
+    <string name="Prayer_Time">प्रार्थना का समय</string>
+    <string name="Sura">सूरा</string>
+    <string name="General_knowledge">सामान्य ज्ञान</string>
+    <string name="Hujj_knowledge">हज ज्ञान</string>
+    <string name="Religion_knowledge">धर्म का ज्ञान</string>
+    <string name="Quran_knowledge">कुरान ज्ञान</string>
+    <string name="Notification">अधिसूचना</string>
+    <string name="Language_of">ऐप की भाषा</string>
+    <string name="Quran_Translation">कुरान अनुवाद</string>
+    <string name="Prayer_Names">प्रार्थना के नाम</string>
+    <string name="Term_and_Condition">नियम और शर्तें</string>
+    <string name="Language">भाषा: हिन्दी</string>
+    <string name="Log_out">लॉग आउट</string>
+    <string name="What_you_are">तुम क्या ढूंढ रहे हो?</string>
+    <string name="All">सब</string>
+    <string name="Morning_Evening"><![CDATA[सुबह शाम ]]></string>
+    <string name="Travel">यात्रा</string>
+    <string name="Home_Family"><![CDATA[घर और परिवार ]]></string>
+    <string name="Joy_Distress"><![CDATA[खुशी और संकट ]]></string>
+    <string name="Prayer">प्रार्थना</string>
+    <string name="Praising_allah">अल्लाह की प्रशंसा करना</string>
+    <string name="Nature">प्रकृति</string>
+    <string name="Good_Etiquette">अच्छा शिष्टाचार</string>
+    <string name="Food_drink"><![CDATA[खाद्य पेय ]]></string>
+    <string name="Book_business">बुक बिजनेस</string>
+    <string name="Religion_clothing">धर्म के कपड़े</string>
+    <string name="Incense_Business">धूप व्यापार</string>
+    <string name="My_favourite_Mosque">मेरी पसंदीदा मस्जिद</string>
+    <string name="Enter_Mosque_name">मस्जिद का नाम दर्ज करें</string>
+    <string name="khutba">भाषण</string>
+    <string name="Education">शिक्षा</string>
+    <string name="Activity">क्रियाएँ</string>
+    <string name="Rules_of_the_Game">खेल के नियम</string>
+    <string name="Lets_play">चलो खेलें</string>
+    <string name="Correcrt_Answer">सही उत्तर</string>
+    <string name="Replay">फिर से खेलना</string>
+    <string name="Wrong_answer">गलत जवाब</string>
+    <string name="Done">किया हुआ</string>
+    <string name="Profile">प्रोफ़ाइल</string>
+    <string name="My_home_mosque">मेरा घर मस्जिद</string>
+    <string name="My_Donation">मेरा दान</string>
+    <string name="Following">निम्नलिखित</string>
+    <string name="Following_Mosque">मस्जिद का अनुसरण</string>
+    <string name="Home_Mosque">घर की मस्जिद</string>
+    <string name="Add_new_home">नई होम मस्जिद जोड़ें</string>
+    <string name="Umrah">उमराह</string>
+    <string name="Hajj">हज</string>
+    <string name="A_request">तीर्थ यात्रियों का एक अनुरोध</string>
+    <string name="Departure_from">अपने घर से प्रस्थान</string>
+    <string name="The_method_of_ehram">इहराम की विधि</string>
+    <string name="The_ehram_of_men">पुरुषों का इहराम</string>
+    <string name="The_ehram_of_women">महिलाओं का इहराम</string>
+    <string name="The_ehram_of_children">बच्चों का इहराम</string>
+    <string name="The_three_type_of_hujj">तीन प्रकार की हज</string>
+    <string name="Qibla">क़िबला</string>
+    <string name="All_community">सब</string>
+    <string name="Mine">मेरी</string>
+    <string name="street_address">गली का पता</string>
+    <string name="confirm_Pass">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="Log_in_to">अपने खाते में प्रवेश करें</string>
+    <string name="Login_via_Facebook">फेसबुक के माध्यम से लॉगिन करें</string>
+    <string name="Login_via_Gmail">के माध्यम से लॉगिन करें जीमेल लगीं</string>
+    <string name="Type_business_name_heare">यहां व्यवसाय का नाम लिखें</string>
+    <string name="Map">नक्शा</string>
+    <string name="Signup_via_Facebook">फेसबुक के माध्यम से साइनअप</string>
+    <string name="Signup_via_Gmail">के माध्यम से साइनअप करें जीमेल लगीं</string>
+    <string name="Phone_number">फोन नंबर दर्ज</string>
+    <string name="Business_name">व्यवास्यक नाम</string>
+    <string name="New_Request">नई विनती</string>
+    <string name="Enter_your_request">अपना अनुरोध दर्ज करें</string>
+    <string name="Post">पद</string>
+    <string name="Board">मंडल</string>
+    <string name="Prayer_Schedule">प्रार्थना अनुसूची</string>
+    <string name="Current_Mosque">वर्तमान मस्जिद</string>
+    <string name="Mosque_near_you">तुम्हारे पास मस्जिद</string>
+    <string name="Mosque_List">मस्जिद सूची</string>
+    <string name="View_more">और देखो</string>
+    <string name="Education_Detail">शिक्षा विस्तार</string>
+    <string name="Suggestion">सुझाव</string>
+    <string name="Write_message">संदेश लिखो</string>
+    <string name="Jama_Masjid">जामा मस्जिद</string>
+    <string name="Association">एसोसिएट्स</string>
+    <string name="Zakat_Al_Fitr">ज़कात अल फ़ित्र</string>
+    <string name="Select_payment_method">भुगतान का तरीका चुनें</string>
+    <string name="Donation_Now">अब दान करें</string>
+    <string name="News">समाचार</string>
+    <string name="Course_Objective">पाठ्यक्रम का उद्देश्य</string>
+    <string name="Methodology">क्रियाविधि</string>
+    <string name="Duration">अवधि</string>
+    <string name="Registration_Fee">पंजीयन शुल्क</string>
+    <string name="Pre_requisites">पूर्व आवश्यकताएं</string>
+    <string name="About_the_Instructor">प्रशिक्षक के बारे में</string>
+    <string name="Calender">पंचांग</string>
+    <string name="Activities">क्रियाएँ</string>
+    <string name="Total_Donation_Amount">कुल दान राशि</string>
+    <string name="Donate_Now">अभी दान कीजिए</string>
+    <string name="Friday_Salat_time">शुक्रवार प्रार्थना का समय</string>
+    <string name="WIS_TV">WIS टी.वी.</string>
+    <string name="All_Suppilication">सभी दमन</string>
+    <string name="News_Detail">समाचार विस्तार से</string>
+    <string name="Activity_Detail">गतिविधि विस्तार</string>
+    <string name="Previous">पिछला</string>
+    <string name="Forward">"आगे "</string>
+    <string name="Type_organization_name_heare">यहां संगठन का नाम लिखें</string>
+    <string name="Activities_Detail">क्रियाएँ विस्तार</string>
+    <string name="Settings">समायोजन</string>
+    <string name="Juz">Juz</string>
+    <string name="My_Quran">मेरी कुरान</string>
+    <string name="Delete">हटाएं</string>
+    <string name="Username">उपयोगकर्ता नाम</string>
+    <string name="Enter_family_member_name">परिवार के सदस्य को दर्ज करें</string>
+
+    <string name="profile_desc">प्रोफ़ाइल</string>
+    <string name="profile_title">शीर्षक</string>
+    <string name="posts">पदों</string>
+    <string name="followers">का पालन करें</string>
+    <string name="following">निम्नलिखित</string>
+    <string name="msg_error_unable_select_profile_pic">प्रोफ़ाइल छवि सेट करने में असमर्थ। कृपया पुन: प्रयास करें!</string>
+    <string name="lbl_set_profile_photo">छवि चुने</string>
+    <string name="lbl_take_camera_picture">एक तस्वीर ले लो</string>
+    <string name="lbl_choose_from_gallery">गैलरी से चयन करो</string>
+    <string name="toast_image_intent_null">छवि पिकर विकल्प गायब है!</string>
+    <string name="Add_note">नोट जोड़े</string>
+    <string name="view_more">और देखो</string>
+    <string name="donation_amount">दान की राशि</string>
+    <string name="no_of_people">लोगों की संख्या</string>
+    <string name="iftar">इफ्तार</string>
+    <string name="total_donation_amount">कुल दान राशि</string>
+    <string name="enter_family_member_name_nseparated_by_comma">Enter family member name \nseparated by comma</string>
+    <string name="registration">पंजीकरण</string>
+    <string name="mobile">मोबाइल</string>
+    <string name="password">कुंजिका</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="submit">प्रस्तुत</string>
+    <string name="amount">रकम</string>
+    <string name="pay_now">अब भुगतान करें</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="reset_password_token">पासवर्ड टोकन को रीसेट करें</string>
+    <string name="pls_enter_username">कृपया उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="pls_enter_mobile_no">देश कोड वाला मोबाइल नंबर</string>
+    <string name="pls_enter_password">पासवर्ड दर्ज नहीं किया गया</string>
+    <string name="password_match">पासवर्ड मिलान नहीं हुआ</string>
+    <string name="day">दिन</string>
+    <string name="time">समय</string>
+    <string name="login">Login</string>
+    <string name="tandc">Terms and Condition</string>
+</resources>

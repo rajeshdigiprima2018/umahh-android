@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Tv_Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:textSize="12sp"
+        android:text="The indian Air Force celebrated its Golden jubilee"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+       >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="1"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <!--<Button-->
+            <!--android:id="@+id/Bt_1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:textSize="12sp"-->
+            <!--android:background="@drawable/recycler_bg"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="A : 1900"/>-->
+        <!---->
+
+        <!--<Button-->
+            <!--android:id="@+id/Bt_2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:textSize="12sp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/recycler_bg"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="A : 1900"/>-->
+        <RadioButton
+            android:id="@+id/BT_1"
+            android:layout_weight=".5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingLeft="5dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:text="I am a radiobutton" /> <!-- displayed text of radio button-->
+        <RadioButton
+            android:id="@+id/BT_2"
+            android:layout_weight=".5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingLeft="5dp"
+            android:buttonTint="@color/white"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:text="I am a radiobutton" /> <!-- displayed text of radio button-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="1"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <!--<Button-->
+            <!--android:id="@+id/Bt_3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:textSize="12sp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:background="@drawable/recycler_bg"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="A : 1900"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/Bt_4"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_weight=".5"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:textSize="12sp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/recycler_bg"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="A : 1900"/>-->
+
+        <RadioButton
+            android:id="@+id/BT_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingLeft="5dp"
+            android:layout_weight=".5"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+          /> <!-- displayed text of radio button-->
+        <RadioButton
+            android:id="@+id/BT_4"
+            android:layout_weight=".5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingLeft="5dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+             /> <!-- displayed text of radio button-->
+
+    </LinearLayout>
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Grey"/>
+</LinearLayout>

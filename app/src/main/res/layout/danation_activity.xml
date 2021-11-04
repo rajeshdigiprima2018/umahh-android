@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mosque_bg">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/Iv_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/outline_arrow_back_white" />
+
+        <TextView
+            android:id="@+id/TV_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:padding="5dp"
+            android:text="@string/Donation"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Iv_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_below="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingTop="5dp"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/recycler_bg"
+            android:id="@+id/Lay_amount"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_weight=".6"
+                android:text="Amount"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <EditText
+                android:enabled="false"
+                android:id="@+id/Et_Amount1"
+                android:inputType="number"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_gravity="left"
+                android:layout_weight=".4"
+                android:gravity="right|center"
+                android:background="#55ffffff"
+                android:drawableRight="@drawable/ic_dollar"
+                android:text=""
+                android:padding="2dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/recycler_bg"
+            android:id="@+id/Lay_member"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/Tv_title"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_weight=".6"
+                android:text="No. of People"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <EditText
+
+                android:id="@+id/Et_Amount"
+                android:inputType="number"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:layout_weight=".4"
+                android:background="#55ffffff"
+                android:gravity="right|center"
+                android:text=""
+                android:padding="2dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Et_family_member"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:gravity="left|center"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:hint="@string/Add_note"
+            android:background="@drawable/recycler_bg"
+            android:layout_marginRight="25dp" />
+
+
+        <Button
+            android:id="@+id/Bt_Done"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/background_green"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Done"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp">
+
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_yello"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="@string/Total_Donation_Amount"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Tv_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight=".5"
+                android:gravity="right"
+                android:text="$ "
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:text="@string/Select_payment_method"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/Lay_paypal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                app:srcCompat="@drawable/paypal_" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

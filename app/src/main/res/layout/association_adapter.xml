@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Iv_user_image"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/jama_association"
+     />
+
+    <TextView
+        android:id="@+id/Tv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:gravity="top"
+        android:layout_marginTop="6dp"
+        android:text="@string/Jama_Masjid"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Tv_Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:lines="2"
+        android:padding="3dp"
+        android:text="@string/Lorem"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/Tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:lines="3"
+        android:padding="3dp"
+        android:text="@string/Lorem"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height=".8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white" />
+</LinearLayout>

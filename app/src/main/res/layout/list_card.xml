@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/recycler_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Mosque_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:paddingRight="10dp"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_descrition1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Mosque_Name"
+        android:layout_alignStart="@+id/tv_Mosque_Name"
+        android:layout_below="@+id/tv_Mosque_Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|left"
+        android:textStyle="bold"
+        android:lines="2"
+        android:paddingRight="10dp"
+        android:text="Description1"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_description2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Mosque_Name"
+        android:layout_alignStart="@+id/tv_Mosque_Name"
+        android:layout_below="@+id/tv_descrition1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center|left"
+        android:lines="2"
+        android:layout_marginBottom="20sp"
+        android:paddingRight="10dp"
+        android:text="Description2"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+
+    <ImageView
+        android:id="@+id/Iv_car"
+        android:layout_width="25dp"
+        android:layout_height="40dp"
+        android:paddingRight="0dp"
+        android:paddingLeft="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        app:srcCompat="@drawable/ic_bookmark" />
+
+
+</RelativeLayout>

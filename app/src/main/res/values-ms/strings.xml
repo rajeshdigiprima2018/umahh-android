@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">Ummah</string>
+    <string name="title_home">Halaman utama</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="Please_wait">Sila tunggu </string>
+    <string name="drawer_close">Tutup</string>
+    <string name="drawer_open">Buka</string>
+    <string name="Clear">Jelas</string>
+    <string name="No_Internet_Connection">Tiada sambungan internet</string>
+    <string name="You_dont_have_internet_connection">Anda tiada sambungan internet</string>
+    <string name="Retry">Cuba lagi</string>
+    <string name="Exit">Keluar</string>
+    <string name="Yes">Ya</string>
+    <string name="No">Tidak</string>
+    <string name="text_enter_fname">Nama pertama tidak dimasukkan</string>
+    <string name="text_enter_lname">Nama terakhir tidak dimasukkan</string>
+    <string name="text_enter_valid_email">Sila masukkan e-mel ID yang sah</string>
+    <string name="Forgot_password">Lupa kata kekunci</string>
+    <string name="Please_chack">Sila periksa e-mel anda</string>
+    <string name="Reset_pass">Menetapkan semula kata laluan</string>
+    <string name="Forget_pass">Lupa kata laluan</string>
+    <string name="Please_inter">Sila masukkan e-mel pendaftaran anda</string>
+    <string name="Location_not_available">Lokasi tidak tersedia, buka GPS?</string>
+    <string name="Activate_GPS_to_use_use">Atifkan GPS untuk menggunakan perkhidmatan lokasi?</string>
+    <string name="Login">Log masuk</string>
+    <string name="register">Daftar</string>
+    <string name="Password">Kata laluan </string>
+    <string name="Email">Masukkan e-mel</string>
+
+    <string name="text_test" >fadsfasdfadsf</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="track_number">Track</string>
+
+    <!-- font families -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="dialog_permission_title">Memberi kebenaran)</string>
+    <string name="dialog_permission_message">Aplikasi ini memerlukan kebenaran untuk menggunakan ciri ini. Anda boleh memberikannya dalam tetapan aplikasi.</string>
+    <string name="go_to_settings">pergi ke tetapan</string>
+
+    // Facebook .....
+    <string name="facebook_app_id">1934372016684577</string>
+    <string name="fb_login_protocol_scheme">fb1934372016684577</string>
+
+    // Google
+
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">Memuatkan</string>
+    <string name="auth_code_fmt">Memberi kod: %s</string>
+    <string name="id_token_fmt">Token ID: %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Ralat Perkhidmatan Google Play: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">daftar keluar</string>
+    <string name="disconnect">putuskan sambungan</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Logo Google</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">Capaian kenalan diperlukan untuk mendapatkan semula alamat e-mel anda.</string>
+
+    <!-- Activity Names and Descriptions -->
+    <string name="name_sign_in_activity">SignInActivity</string>
+    <string name="desc_sign_in_activity">Melog masuk, log keluar, dan membatalkan akses.</string>
+    <string name="desc_sign_in_activity_scopes">Melog masuk, log keluar, dan membatalkan akses dengan izin Google Drive</string>
+    <string name="name_id_token_activity">IdTokenActivity</string>
+    <string name="desc_id_token_activity">Mengambil Token ID untuk pengguna.</string>
+    <string name="desc_auth_code_activity">Tunjukkan pengambilan kod autentikasi untuk membenarkan pelayan anda.</string>
+    <string name="name_auth_code_activity">ServerAuthCodeActivity</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">363242854370-urn77d3nmu1mml6codca4moto6hcocfd.apps.googleusercontent.com</string>
+    <string name="name">Nama :</string>
+    <string name="Login_to">Log masuk ke Akaun anda</string>
+    <string name="Enter_your_email"><![CDATA[Masukkan alamat e-mel & kata laluan anda untuk log masuk ke akaun anda.]]></string>
+    <string name="or_log">Atau log masuk dengan</string>
+    <string name="I_am_a">saya adalah</string>
+    <string name="User">Pengguna</string>
+    <string name="Business_Owner">Pemilik perniagaan</string>
+    <string name="Mosque_manager">Pengurus Masjid</string>
+    <string name="Continue">Teruskan</string>
+    <string name="Sign_Up">Mendaftar</string>
+    <string name="Sign_Up2">Mendaftar</string>
+    <string name="Phone">Masukkan Telefon</string>
+    <string name="By_clicking_continue">Dengan mengklik terus, anda bersetuju dengan terma dan syarat kami.</string>
+    <string name="or_sign_up">Atau Daftar dengan</string>
+    <string name="Create_new_pass">Buat Kata Laluan Baru</string>
+    <string name="Enter_new_pass">Masukkan kata laluan baru</string>
+    <string name="Enter_verification_code">Masukkan Kod Pengesahan</string>
+    <string name="Enter_verification_code_sent">Masukkan kod pengesahan yang dihantar di alamat e-mel anda</string>
+    <string name="Create_new_account">Buat akaun baru</string>
+    <string name="Mosque_name">Nama Masjid</string>
+    <string name="Name_contact_person">Nama Orang Yang Dihubungi</string>
+    <string name="Zip_contact">Poskod</string>
+    <string name="or">atau</string>
+    <string name="Choose_location_automatically">Pilih lokasi secara automatik</string>
+    <string name="Type_Mosque_name">Taipkan nama masjid</string>
+    <string name="Zuhru">Zuhru</string>
+
+    <string name="navigation_drawer_open">Buka laci navigasi</string>
+    <string name="navigation_drawer_close">Tutup laci navigasi</string>
+    <string name="action_settings">Tetapan</string>
+    <string name="Find_a_mosque">Cari masjid</string>
+    <string name="Todays_feed">Suapan Hari Ini</string>
+    <string name="title_bookmark">Diria que es Marcador</string>
+    <string name="title_search">Cari</string>
+    <string name="title_danation">Derma</string>
+    <string name="tilte_Perf">Prefs</string>
+    <string name="Quran">Al-Quran</string>
+    <string name="Community">Komuniti</string>
+    <string name="Setting">Tetapan</string>
+    <string name="Qiblah">Kiblat</string>
+    <string name="Quiz">Kuiz</string>
+    <string name="Personnage">Pertalian</string>
+    <string name="Zakkat_Calculator">Kalkulator Zakkat</string>
+    <string name="Hajj_and_Umrah">Haji dan Umrah</string>
+    <string name="Supplication">Permintaan</string>
+    <string name="Business">Perniagaan</string>
+    <string name="Organization">Pertubuhan</string>
+    <string name="Donation">Derma</string>
+    <string name="Prefs">Prefs</string>
+    <string name="Select_home_mosque">Pilih Masjid Rumah</string>
+    <string name="Open">Buka</string>
+    <string name="Prayer_Time">Waktu Solat</string>
+    <string name="Sura">Sura</string>
+    <string name="General_knowledge">Pengetahuan am</string>
+    <string name="Hujj_knowledge">Pengetahuan Hujj</string>
+    <string name="Religion_knowledge">Pengetahuan agama</string>
+    <string name="Quran_knowledge">Pengetahuan al-Quran</string>
+    <string name="Notification">Pemberitahuan</string>
+    <string name="Language_of">Bahasa Aplikasi</string>
+    <string name="Quran_Translation">Terjemahan Al-Quran</string>
+    <string name="Prayer_Names">Nama-nama Solat</string>
+    <string name="Term_and_Condition">Terma dan syarat</string>
+    <string name="Language">Bahasa</string>
+    <string name="Log_out">Log keluar</string>
+    <string name="What_you_are">Apa yang Anda Cari?</string>
+    <string name="All">Semua</string>
+    <string name="Morning_Evening"><![CDATA[Pagi & Petang]]></string>
+    <string name="Travel">Melancong</string>
+    <string name="Home_Family"><![CDATA[Rumah & Keluarga]]></string>
+    <string name="Joy_Distress"><![CDATA[Kegembiraan & Tekanan]]></string>
+    <string name="Prayer">Solat</string>
+    <string name="Praising_allah">Memuji Allah</string>
+    <string name="Nature">Alam semula jadi</string>
+    <string name="Good_Etiquette">Etika yang baik</string>
+    <string name="Food_drink"><![CDATA[Makanan minuman]]></string>
+    <string name="Book_business">Perniagaan Buku</string>
+    <string name="Religion_clothing">Pakaian agama</string>
+    <string name="Incense_Business">Perniagaan Dupa</string>
+    <string name="My_favourite_Mosque">Masjid kegemaran saya</string>
+    <string name="Enter_Mosque_name">Masukkan Nama Masjid</string>
+    <string name="khutba">khutba</string>
+    <string name="Education">Pendidikan</string>
+    <string name="Activity">Aktiviti</string>
+    <string name="Rules_of_the_Game">Peraturan Permainan</string>
+    <string name="Lets_play">Jom main</string>
+    <string name="Correcrt_Answer">Jawapan yang betul</string>
+    <string name="Replay">Main semula</string>
+    <string name="Wrong_answer">Jawapan yang salah</string>
+    <string name="Done">Selesai</string>
+    <string name="Profile">Profil</string>
+    <string name="My_home_mosque">Masjid Rumah Saya</string>
+    <string name="My_Donation">Derma Saya</string>
+    <string name="Following">Mengikuti</string>
+    <string name="Following_Mosque">Mengikuti Masjid</string>
+    <string name="Home_Mosque">Masjid Rumah</string>
+    <string name="Add_new_home">Tambah Masjid Rumah Baru</string>
+    <string name="Umrah">Umrah</string>
+    <string name="Hajj">Haji</string>
+    <string name="A_request">Permintaan jemaah</string>
+    <string name="Departure_from">Bertolak dari rumah anda</string>
+    <string name="The_method_of_ehram">Kaedah ehram</string>
+    <string name="The_ehram_of_men">Ehram lelaki</string>
+    <string name="The_ehram_of_women">Ehram wanita</string>
+    <string name="The_ehram_of_children">Ehram kanak-kanak</string>
+    <string name="The_three_type_of_hujj">Tiga jenis hujj</string>
+    <string name="Qibla">Kiblat</string>
+    <string name="All_community">Semua</string>
+    <string name="Mine">Tambang</string>
+    <string name="street_address">Alamat Jalan</string>
+    <string name="confirm_Pass">Sahkan Kata Laluan</string>
+    <string name="Log_in_to">Log masuk ke Akaun anda</string>
+    <string name="Login_via_Facebook">Log masuk melalui Facebook</string>
+    <string name="Login_via_Gmail">Log masuk melalui Gmail</string>
+    <string name="Type_business_name_heare">Taipkan nama perniagaan di sini</string>
+    <string name="Map">Peta</string>
+    <string name="Signup_via_Facebook">Daftar melalui Facebook</string>
+    <string name="Signup_via_Gmail">Mendaftar melalui Gmail</string>
+    <string name="Phone_number">Masukkan Nombor Telefon</string>
+    <string name="Business_name">Nama Perniagaan</string>
+    <string name="New_Request">Permintaan Baru</string>
+    <string name="Enter_your_request">Masukkan permintaan anda</string>
+    <string name="Post">Hantar</string>
+    <string name="Board">Dewan</string>
+    <string name="Prayer_Schedule">Jadual Solat</string>
+    <string name="Current_Mosque">Masjid Semasa</string>
+    <string name="Mosque_near_you">Masjid berhampiran anda</string>
+    <string name="Mosque_List">Senarai Masjid</string>
+    <string name="View_more">Lihat Lagi</string>
+    <string name="Education_Detail">Perincian Pendidikan</string>
+    <string name="Suggestion">Cadangan</string>
+    <string name="Write_message">Tulis Mesej</string>
+    <string name="Jama_Masjid">Masjid Jama</string>
+    <string name="Association">Bersekutu</string>
+    <string name="Zakat_Al_Fitr">Zakat Al Fitr</string>
+    <string name="Select_payment_method">Pilih kaedah pembayaran</string>
+    <string name="Donation_Now">Sumbangan Sekarang</string>
+    <string name="News">Berita</string>
+    <string name="Course_Objective">Objektif Kursus</string>
+    <string name="Methodology">Metodologi</string>
+    <string name="Duration">Tempoh</string>
+    <string name="Registration_Fee">Yuran pendaftaran</string>
+    <string name="Pre_requisites">Pra syarat</string>
+    <string name="About_the_Instructor">Mengenai Pengajar</string>
+    <string name="Calender">Kalender</string>
+    <string name="Activities">Aktiviti</string>
+    <string name="Total_Donation_Amount">Jumlah Jumlah Sumbangan</string>
+    <string name="Donate_Now">Derma sekarang</string>
+    <string name="Friday_Salat_time">Waktu Solat Jumaat</string>
+    <string name="WIS_TV">WIS TV</string>
+    <string name="All_Suppilication">Semua Suplikasi</string>
+    <string name="News_Detail">Perincian Berita</string>
+    <string name="Activity_Detail">Perincian Aktiviti</string>
+    <string name="Previous">Sebelumnya</string>
+    <string name="Forward">Maju</string>
+    <string name="Type_organization_name_heare">Taipkan nama organisasi di sini</string>
+    <string name="Activities_Detail">Perincian Aktiviti</string>
+    <string name="Settings">Tetapan</string>
+    <string name="Juz">Juz</string>
+    <string name="My_Quran">Al-Quran saya</string>
+    <string name="Delete">Padam</string>
+    <string name="Username">Nama pengguna</string>
+    <string name="Enter_family_member_name">Masukkan ahli keluarga</string>
+
+    <string name="profile_desc">profil</string>
+    <string name="profile_title">tajuk</string>
+    <string name="posts">jawatan</string>
+    <string name="followers">ikut</string>
+    <string name="following">mengikuti</string>
+    <string name="msg_error_unable_select_profile_pic">Tidak dapat menetapkan gambar profil. Sila cuba lagi!</string>
+    <string name="lbl_set_profile_photo">Pilih gambar</string>
+    <string name="lbl_take_camera_picture">Ambil gambar</string>
+    <string name="lbl_choose_from_gallery">Pilih dari galeri</string>
+    <string name="toast_image_intent_null">Pilihan pemilih gambar tiada!</string>
+    <string name="Add_note">Tambah Nota</string>
+
+    <string name="view_more">Lihat Lagi</string>
+    <string name="donation_amount">Jumlah Derma</string>
+    <string name="no_of_people">Bilangan Orang</string>
+    <string name="iftar">Iftar</string>
+    <string name="total_donation_amount">Jumlah Jumlah Sumbangan</string>
+    <string name="enter_family_member_name_nseparated_by_comma">Masukkan nama ahli keluarga \n dipisahkan dengan koma</string>
+    <string name="registration">Pendaftaran</string>
+    <string name="mobile">Mudah alih</string>
+    <string name="password">Kata Laluan</string>
+    <string name="confirm_password">Sahkan Kata Laluan</string>
+    <string name="submit">Hantar</string>
+    <string name="amount">Jumlah</string>
+    <string name="pay_now">Bayar sekarang</string>
+    <string name="new_password">Kata laluan baharu</string>
+    <string name="reset_password_token">Tetapkan Semula Token Kata Laluan</string>
+    <string name="pls_enter_username">Sila masukkan nama pengguna</string>
+    <string name="pls_enter_mobile_no">Nombor telefon bimbit dengan kod negara</string>
+    <string name="pls_enter_password">Kata laluan tidak dimasukkan</string>
+    <string name="password_match">Kata laluan tidak sepadan</string>
+    <string name="day">Hari</string>
+    <string name="time">Masa</string>
+    <string name="login">Login</string>
+    <string name="tandc">Terms and Condition</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="6dp"
+    android:layout_gravity="center|top"
+    android:background="@drawable/recycler_bg"
+    android:orientation="horizontal"
+    android:weightSum="1.2">
+
+
+    <ImageView
+        android:id="@+id/Iv_Image"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_weight=".2"
+        android:layout_gravity="center"
+        android:src="@drawable/book_business_big_image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".8"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TV_business_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/News"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/Tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/location"
+            android:drawablePadding="5dp"
+            android:text="@string/News"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_weight=".2"
+        android:layout_width="40dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_call_green" />
+
+</LinearLayout>

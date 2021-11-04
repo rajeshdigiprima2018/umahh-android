@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "330718431847",
+    "project_id": "umahh-314207",
+    "storage_bucket": "umahh-314207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330718431847:android:dee7ce16aee14cd243e2c2",
+        "android_client_info": {
+          "package_name": "app.com.ummah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330718431847-ivovctfk47mqv68opun34bhtmq39e62h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUwAP0kkKEaYDWdMX8D2H4BMjiZfVCUU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330718431847-ivovctfk47mqv68opun34bhtmq39e62h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "330718431847-3kasbi4dcaf0sem11v0tqtonkkkrbisa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.com.ummah"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="25dp"
+    android:paddingRight="35dp"
+    android:background="@drawable/main_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/Iv_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:src="@drawable/outline_arrow_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/Quiz"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Iv_search"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/Bt_Gk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/General_knowledge"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/Hujj_knowledge"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/Religion_knowledge"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/Quran_knowledge"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/General_knowledge"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/Hujj_knowledge"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:textSize="12sp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/Religion_knowledge"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/recycler_bg"
+        android:text="@string/Quran_knowledge"/>
+
+
+</LinearLayout>

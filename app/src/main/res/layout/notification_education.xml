@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recycler_bg"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="3dp"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/IV_mosque"
+            android:lines="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@+id/IV_mosque"
+            android:text="Dr. Mohammad Yusuf"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/Tv_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_Name"
+            android:layout_below="@+id/tv_Name"
+            android:layout_marginTop="0dp"
+            android:text="Imam of the Mosque"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/Tv_TextArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:text="@string/Lorem"/>
+
+
+
+</LinearLayout>
